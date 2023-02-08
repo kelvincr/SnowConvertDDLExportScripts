@@ -14,6 +14,8 @@ the [SnowConvert tool](https://www.mobilize.net/products/database-migrations/sno
 - [Export Scripts for Vertica](https://github.com/MobilizeNet/SnowConvertDDLExportScripts/tree/main/Vertica)
 - [Export Scripts for DB2](https://github.com/MobilizeNet/SnowConvertDDLExportScripts/tree/main/DB2)
 - [Export Scripts for Hive](https://github.com/MobilizeNet/SnowConvertDDLExportScripts/tree/main/Hive)
+- [Export Scripts for BigQuery](https://github.com/MobilizeNet/SnowConvertDDLExportScripts/tree/main/BigQuery)
+- [Export Scripts for Databricks](https://github.com/MobilizeNet/SnowConvertDDLExportScripts/tree/main/Databricks)
 
 
 ![SnowConvert Machine](https://www.mobilize.net/hubfs/1-Website%20Assets/svg%20by%20Ado/SnowConvert%20Migrations%20machine.svg)
