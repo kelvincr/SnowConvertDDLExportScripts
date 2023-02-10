@@ -45,6 +45,19 @@ $ databricks workspace export_dir "/Shared" "~/exportSharedWorkspace" -o
 zip -r exportedWorkspace.zip ~/exportSharedWorkspace
 ```
 
+## Extracting with a DBX Notebook
+
+This is another alternative to extract your source code, it provides two choices of ZIP file with source codes either notebooks or python source in your repo or DBFS. The first one includes only sources from the top time-consuming jobs and the second includes all the source files from the running jobs. That means interactive notebooks, not scheduled to run, won't be exported.
+
+1. Open your Databricks workspace and creates an new notebook.
+2. Open File menu and click import.
+3. Select URL and paste ***https://github.com/MobilizeNet/SnowConvertDDLExportScripts/blob/main/Databricks/Download_jobs_sources.dbc***
+4. Follow notebook instructions.
+   1. Install Databricks pypi dependency.
+   2. Update configuration accordling with your cluster (host_url, and token). ***We Advise against using the token directly in the notebook. Please store it in a secret scope, using Databricks CLI***.  For more details [Databricks Authentication](https://docs.databricks.com/dev-tools/api/latest/authentication.html)
+
+ ![Exporting Jobs sources](./images/notebook_export_source_codes.png)
+
 ## Reporting issues and feedback
 
 If you encounter any bugs with the tool please file an issue in the
