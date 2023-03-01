@@ -2,8 +2,6 @@
 
 This repository provides some simple scripts to help exporting your Databricks code.
 
-Also we provide a notebook that can be used for [analyzing your DBX workloads](./workload_analysis/README.md)
-
 ## Version
 
 Version 1.0
